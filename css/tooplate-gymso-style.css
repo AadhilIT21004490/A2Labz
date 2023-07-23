@@ -113,6 +113,13 @@ h6 {
   margin: 0;
 }
 
+.tek-head h2 {
+  color: #ffffff;
+  line-height: inherit;
+  margin: 0;
+
+}
+
 p {
   color: var(--p-color);
   font-size: var(--p-font-size);
@@ -408,6 +415,10 @@ a:focus {
   background: var(--dark-color);
 }
 
+.schedule h1 {
+  color: #ffffff;
+}
+
 .schedule-table {
   display: table;
   border: 0;
@@ -675,5 +686,36 @@ button#submit-button:hover {
       border-radius: .7rem;
       transition: all ease .3s;
     }
+  }
+
+  .tek {
+    width: 340px;
+    height: auto;
+    display: inline-block;
+    margin: auto;
+
+    .container {
+      width: auto;
+      align-items: center;
+      display: flex;
+      margin: auto;
+      padding: 15px;
+    }
+
+    .card_box {
+      width: 500px;
+      height: auto;
+      margin: auto;
+    }
+
+    .card_box img {
+      margin-left: 25%;
+      width: 50%;
+      aspect-ratio: 8/3;
+      object-fit: contain;
+      mix-blend-mode: normal;
+    }
+
+
   }
 }
